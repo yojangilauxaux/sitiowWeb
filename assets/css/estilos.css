@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url(https://static.vecteezy.com/system/resources/previews/024/661/591/non_2x/futuristic-neon-background-illustration-ai-generative-free-photo.jpg);
+  background: url(https://th.bing.com/th/id/R.f09d566e5dcd1afd81ab8f4d1aab5cf0?rik=nBbfI9lU2EGXNQ&riu=http%3a%2f%2fwww.solofondos.com%2fwp-content%2fuploads%2f2015%2f11%2fbackground2-1024x640.jpg&ehk=kA8AwjBQKyBtTe49ydd7R7xYuC8Iv%2boKCWaq0vj6IGk%3d&risl=&pid=ImgRaw&r=0);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -184,5 +184,79 @@ body {
     ;
   }
 
+
+  /* Estilo general del navbar */
+.custom-navbar {
+    background-color: #333;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.custom-navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.custom-navbar .brand-img {
+    width: 40px;
+    height: auto;
+    margin-right: 0.5rem;
+}
+
+.custom-navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #ff6b6b;
+}
+
+.custom-navbar .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.custom-navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox%3D%220 0 30 30%22 xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath stroke%3D%22rgba%280, 0, 0, 0.5%29%22 stroke-width%3D%222%22 stroke-linecap%3D%22round%22 stroke-miterlimit%3D%2210%22 d%3D%22M4 7h22M4 15h22M4 23h22%22/%3E%3C/svg%3E');
+}
+
+.custom-navbar .navbar-collapse {
+    justify-content: space-between;
+}
+
+.custom-navbar .navbar-collapse .navbar-nav {
+    flex-direction: row;
+}
+
+.custom-navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 992px) {
+    .custom-navbar .navbar-collapse {
+        background-color: #333;
+    }
+
+    .custom-navbar .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .custom-navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .custom-navbar .navbar-brand {
+        margin: 1rem 0;
+    }
+}
 
 
