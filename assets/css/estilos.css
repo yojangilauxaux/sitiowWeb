@@ -7,10 +7,11 @@
 }
 
 body {
-  background: url(https://th.bing.com/th/id/R.f09d566e5dcd1afd81ab8f4d1aab5cf0?rik=nBbfI9lU2EGXNQ&riu=http%3a%2f%2fwww.solofondos.com%2fwp-content%2fuploads%2f2015%2f11%2fbackground2-1024x640.jpg&ehk=kA8AwjBQKyBtTe49ydd7R7xYuC8Iv%2boKCWaq0vj6IGk%3d&risl=&pid=ImgRaw&r=0);
-  background-position: center;
+  background-image: url('/login y registro/assets/img/fondo.png');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+}
 
     
 
@@ -40,7 +41,7 @@ body {
 
   .caja__trasera div {
     margin: 100px 40px;
-    color: white;
+    color: rgb(11, 11, 11);
     transition: all 500ms;
   }
 
@@ -61,18 +62,18 @@ body {
 
   .caja__trasera button {
     padding: 10px 40px;
-    border: 2px solid #eee7ee;
+    border: 2px solid #90404c;
     font-size: 14px;
     background: transparent;
     font-weight: 600;
     cursor: pointer;
-    color: rgb(243, 243, 243);
+    color: rgb(14, 14, 14);
     outline: none;
     transition: all 300ms;
   }
 
   .caja__trasera button:hover {
-    background: #1a1818;
+    background: #000000;
     color: #ffffff;
   }
 
@@ -94,7 +95,7 @@ body {
   .contenedor__login-register form {
     width: 100%;
     padding: 80px 20px;
-    background: rgb(179, 187, 187);
+    background: rgb(69, 122, 150);
     position: absolute;
     border-radius: 20px;
   }
@@ -103,7 +104,7 @@ body {
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
-    color: #46a2fd;
+    color: #ffffff;
   }
 
   .contenedor__login-register form input {
@@ -121,11 +122,12 @@ body {
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: #46a2fd;
+    background: #f5f7f9;
     font-weight: 600;
     cursor: pointer;
-    color: rgb(7, 7, 7);
+    color: rgb(15, 15, 15);
     outline: none;
+    border-radius: 10px;
   }
 
   .formulario__login {
@@ -165,7 +167,7 @@ body {
       position: relative;
     }
   }
-}
+
 
 .imgLogo  {
   display: flex;
@@ -178,9 +180,9 @@ body {
 
   .imgLogo img{
 
-    border-radius: 50px;
-    width: 290px;
-    border-color: #eee7ee;
+    border-radius: 40px;
+    width: 310px;
+    border-color: #ff03ff;
     ;
   }
 
