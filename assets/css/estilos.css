@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url('/login y registro/assets/img/fondo.png');
+  background-image: url('/assets/img/fondo.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@ main {
 
 .contenedor__login-register form {
   width: 100%;
-  padding: 60px 20px; /* Adjusted */
+  padding: 60px 20px; /* ajuste */
   background: rgb(69, 122, 150);
   position: absolute;
   border-radius: 20px;

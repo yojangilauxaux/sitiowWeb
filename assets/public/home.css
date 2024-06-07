@@ -12,7 +12,7 @@ li * {
 body {
     background: linear-gradient(45deg, #0b0b0f, #25254f, #105470fa, #d9104c); 
     background-size: 400% 400%;
-    animation: gradientBG 15s ease-out; /* Animación del fondo */
+    animation: gradientBG 12s infinite;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,9 +39,7 @@ nav {
     font-weight: 700;
 }
 
-.logo span {
-    color: #fe05e9;
-}
+
 
 .navbar {
     flex: 1;
@@ -71,7 +69,7 @@ nav {
 }
 
 .navbar a:hover {
-    color: #fe05e9;
+    color: #afa7af;
 }
 
 .navbar .active {
@@ -144,9 +142,9 @@ nav {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: linear-gradient(#fe053f, yellow);
+    background: linear-gradient(#fe053f, rgb(33, 187, 198));
     filter: blur(20px);
-    animation: cercle 2s linear infinite;
+    
 }
 
 @keyframes cercle {
