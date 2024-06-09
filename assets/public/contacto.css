@@ -1,0 +1,120 @@
+li {
+    color: #ffffff; /* Establece el color visible para los elementos li */
+}
+
+li * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: linear-gradient(45deg, #0b0b0f, #25254f, #105470fa, #d9104c); 
+    background-size: 400% 400%;
+    animation: gradientBG 12s infinite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+.logo {
+    font-size: 2em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+.navbar {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas */
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+    position: relative;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    color: #afa7af;
+}
+
+.navbar .active {
+    color: #ffffff;
+}
+
+.texto {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 50px 0; /* Relleno superior e inferior */
+    color: #c0247a; /* Color del texto */
+    text-align: center; /* Centra el texto */
+
+  }
+  
+
+
+
+/* Estilos para el título en el contenedor de texto */
+.texto h1 {
+    font-size: 2.5em; /* Tamaño de la fuente del título */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+
+
+
+  .ubi {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    height: 100vh; /* Ajusta la altura según sea necesario */
+}
+
+.ubi iframe {
+    width: 40%; /* Ajusta el ancho según sea necesario */
+    height: 60%; /* Ajusta la altura según sea necesario */
+}
+
+.redes-sociales {
+    text-align: center; /* Alinea los elementos al centro */
+    margin-top: 0px; /* Espacio superior */
+}
+
+
+
+.redes-sociales img {
+    width: 120px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    margin: 0 15px; /* Espacio horizontal entre las imágenes */
+}
